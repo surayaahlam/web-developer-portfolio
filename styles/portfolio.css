@@ -3,7 +3,7 @@
   font-optical-sizing: auto;
   font-style: normal;
   font-variation-settings:
-    "wdth" 100;
+    "width" 100;
 }
 
 /* shared style */
@@ -184,7 +184,7 @@ main section{
     color: #757575;
 }
 
-.experience-discription{
+.experience-description{
     font-weight: 400;
     font-size: 16px;
     color: #757575;
