@@ -199,7 +199,7 @@ hr{
 }
 
 /* footer styles*/
-.footer{
+footer{
     padding: 130px 230px;
     display: flex;
     gap: 100px;
@@ -218,4 +218,23 @@ footer input[type="text"], footer input[type="email"], footer textarea{
     padding: 10px 20px;
     margin-bottom: 24px;
     border: none;
+}
+
+/* responsive media query */
+@media screen and (max-width: 576px) {
+    .about-items, .skills-container, .resume-container, footer{
+        flex-direction: column;
+    }   
+
+    footer, .about{
+        padding: 20px;
+    }
+
+    .footer-column{
+        width: 100%;
+    }
+
+    footer input[type="text"], footer input[type="email"], footer textarea{
+        width: calc((100% - 40px));
+    }
 }
